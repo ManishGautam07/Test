@@ -1,0 +1,30 @@
+https://www.savvyhrms.com/contact-us/
+
+
+#revert the changes
+git reset Head~1
+git push -f origin 13Dec22
+
+
+#Switch branch without commit 
+git switch -f Python
+
+#get singe files
+git checkout master pom.xml
+
+#Branch List
+git branch -a
+
+
+#create branch at local
+git checkout -b new_branch_name
+
+#First time created  new branch in web
+git push origin 13Dec22
+
+# flow to commit change
+git status
+git add files_name
+git commit -m "comment"
+git push
+ 
