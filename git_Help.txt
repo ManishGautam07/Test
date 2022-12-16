@@ -22,6 +22,9 @@ git checkout -b new_branch_name
 #First time created  new branch in web
 git push origin 13Dec22
 
+#create branch and push in remote
+git push -u origin branch
+
 # flow to commit change
 git status
 git add files_name
